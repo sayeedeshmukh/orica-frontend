@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import url('https://fonts.cdnfonts.com/css/limelight');
+@import url('https://fonts.cdnfonts.com/css/lexend-deca');
+@import url('https://fonts.cdnfonts.com/css/barrio');
+
+body, html, input, select, button, textarea, h1, h2, h3, h4, h5, h6, p, div {
+  font-family: 'Lexend Deca', sans-serif !important;
+}
+
+.font-limelight {
+  font-family: 'Limelight', cursive !important;
+  font-weight: 400;
+}
+.font-barrio {
+  font-family: 'Barrio', cursive !important;
+  font-weight: 400;
+}
+
+body {
+  background-color: #fdfdfd;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+input, select, button {
+  margin: 0.5rem;
+  padding: 0.4rem;
+  font-size: 1rem;
+}
